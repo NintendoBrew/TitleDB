@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html ng-app="titledbApp">
 <head>
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-8173863072545785",
-    enable_page_level_ads: true
-  });
-</script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,7 +27,7 @@
 
   <!-- info -->
   <meta name="description" content="3DS Homebrew Title Database">
-  <meta name="author" content="github.com/multimegamander">
+  <meta name="author" content="github.com/NintendoBrew/TitleDB">
   <title>Title DB 2.0</title>
 </head>
 <body ng-controller="TitleListController">
@@ -47,7 +40,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand hidden-xs" href="#"><i class="mdi mdi-gamepad"></i>&nbsp;Title DB 2.0</a>
+        <a class="navbar-brand hidden-xs" href="#"><i class="mdi mdi-gamepad"></i>&nbsp;Title DB DSi</a>
         <form class="search-form navbar-right navbar-form" role="search">
           <div class="input-group">
             <input type="text" id="search-input" class="form-control" placeholder="Search" ng-model="searchQuery" />
@@ -60,15 +53,15 @@
       <div class="collapse navbar-collapse" id="navbar-collapse">
         <ul class="nav navbar-nav navbar-left">
           <li class="navbar-text-wrapper">
-            <h4 class="visible-xs" href="#"><i class="mdi mdi-gamepad"></i>&nbsp;Title DB 2.0</h4>
+            <h4 class="visible-xs" href="#"><i class="mdi mdi-gamepad"></i>&nbsp;Title DB DSi</h4>
           </li>
           <li class="navbar-text-wrapper hidden-sm">
-            <p class="navbar-text">A 3DS homebrew hub based off of the awesome <a class="navbar-link" href="https://titledb.com">TitleDB.com</a></p>
+            <p class="navbar-text">A DSi homebrew hub based off of the awesome <a class="navbar-link" href="https://titledb.com">TitleDB.com</a></p>
           </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a class="btn btn-white btn-simple" onclick="window.open('https://github.com/Multimegamander/TitleDB-2.0');">
+            <a class="btn btn-white btn-simple" onclick="window.open('https://github.com/NintendoBrew/TitleDB');">
               <i class="mdi mdi-github-circle" aria-hidden="true"></i>
               &nbsp;GitHub
             </a>
@@ -85,7 +78,7 @@
           <div class="content">
             <div class="media">
               <div class="media-left">
-                <img ng-src="https://haxx.guide/API/images/{{title.titleid}}.png" alt="{{title.name}}-icon" class="media-object hb-icon pull-left">
+                <img ng-src="https://nintendobrew.com/TitleDB/API/images/{{title.titleid}}.png" alt="{{title.name}}-icon" class="media-object hb-icon pull-left">
               </div>
               <div class="media-body">
                 <div class="media-heading">
