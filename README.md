@@ -1,3 +1,3 @@
 # TitleDB-2.0
 
-それは痛いです。
+A DSi TitleDB, thanks to <a href="https://github.com/Multimegamander/">Multimegamander</a>!
